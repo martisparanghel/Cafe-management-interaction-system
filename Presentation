@@ -1,0 +1,6 @@
+Cafe Management & Interaction System ☕
+This C++ project simulates a cafe's operations through two command-line applications:
+
+cafenea.exe (Cafe Management): Allows staff to manage the drink menu (add, remove, modify items and prices) and view placed customer orders.
+client.exe (Client Interaction): Enables customers to view the menu, manage a shopping cart (add, remove, modify quantities), calculate the total, and place orders.
+The system uses text files (meniu.txt, comenzi.txt, cos.txt) for data persistence and features shared C++ classes for consistent data handling across both applications. The project is structured with separate modules for cafe and client functionalities, along with common headers for shared data structures.
